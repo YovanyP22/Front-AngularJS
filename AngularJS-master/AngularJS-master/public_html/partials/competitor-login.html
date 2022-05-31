@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+
+<form name="competitorLogIn" ng-submit="logIn()" ng-controller="competitorCtrl"
+      novalidate>
+    <h2 class="form-title">Log in</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <label>Correo:</label>
+            <input ng-model="competitor.address" type="text" class="form-control" required/>
+        </div>
+        <div class="col-md-6">
+            <label>Contraseña:</label>
+            <input ng-model="competitor." type="text" class="form-control" required/>
+        </div>
+    </div>
+     <input type="submit" value="submit" class="btn btn-default">
+</form>
